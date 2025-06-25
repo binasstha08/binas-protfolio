@@ -65,11 +65,21 @@
     </section>
 
     <section id="contact">
-      <h2>Contact Me</h2>
-      <p><i class="fas fa-envelope"></i> binasshrestha334@gmail.com</p>
-      <p><i class="fab fa-linkedin"></i> <a href="#" target="_blank">linkedin.com/in/binas</a></p>
-    </section>
-  </main>
+  <h2>Contact Me</h2>
+  <form id="contact-form" action="https://formsubmit.co/binasshrestha334@gmail.com" method="POST">
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" name="name" required /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" required /><br />
+
+    <label for="message">Message:</label><br />
+    <textarea id="message" name="message" rows="5" required></textarea><br />
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
 
   <footer>
     <p>© 2025 Binas Shrestha</p>
